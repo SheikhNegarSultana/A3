@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
+    <!-- Tailwind + DaisyUI CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icon CDN -->
+    <script src="https://kit.fontawesome.com/84757c07df.js" crossorigin="anonymous"></script>
+
+    <!-- Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <style>
+        .sora {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
 </head>
-<body>
+
+<body class="sora">
+
+    <header class=" md:pt-8 pt-4">
+
+
+        <!-- NavBar Start -->
+        <nav class="  md:mx-[8.75rem] mx-[1.2rem] flex items-center justify-between p-4 md:px-8">
+            <div class="flex items-center">
+                <img class="hidden md:block md:w-[9.6rem] md:h-[3.75rem]" src="Assets/logo-header.png" alt="Logo">
+                <img class="md:hidden w-[3rem]" src="Assets/Group.png" alt="Mobile Logo">
+            </div>
+    
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars text-[1.87rem] text-[#179800]"></i>
+            </div>
+
+    
+            <div class="hidden md:flex md:items-center md:gap-[2rem] md:ml-[4rem]">
+                <ul class="flex gap-[2rem] text-[1.2rem] font-normal">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+    
+            <div class="hidden md:flex md:items-center md:gap-[1.5rem]">
+                <div class="flex gap-[2rem]">
+                    <i class="fa-solid fa-magnifying-glass text-[1.5rem]"></i>
+                    <i class="fa-solid fa-cart-shopping text-[1.5rem]"></i>
+                </div>
+    
+                <div class="flex gap-[0.75rem]">
+                    <button class="border border-[#179800] hover:bg-[#179800] text-[1.25rem] px-[1.6rem] py-1 rounded-[0.5rem] font-normal">Login</button>
+                    <button class="bg-[#179800] hover:bg-green-400 text-white px-[1.4rem] text-[1.25rem] font-normal rounded-[0.5rem]">Register</button>
+                </div>
+            </div>
+        </nav>
+        <!-- NavBar Done -->
+        <hr class=" md:hidden -mx-[1.2rem]   mt-[0.87rem] border-[0.5px] border-[#179800]">
+
+    
+    
+        <!-- Hero Section Start -->
+         <section class=" md:mx-[8.75rem] mx-[1.2rem]   mt-[2rem] md:mt-[6rem]">
+            <center><h1 class=" items-center mb-[1rem] md:mb-[2rem] font-semibold text-[2rem] md:text-[3.5rem]">Freshness <span class=" text-[#179800]">You Can<br> Count</span> On, Prices <br class="md:hidden"> You'll Love!</h1></center>
+
+            <center><p class=" text-[1rem] md:text-[1.25rem] mb-[1rem] md:mb-[2.3rem]">Shop your daily essentials at unbeatable <br class="md:hidden"> prices. From fresh produce to pantry <br> staples, we've got you covered every day!</p></center>
+
+            <center><img src="Assets/hero-vegetables.png" alt=""></center>
+
+         </section>
+        <!-- Hero Section Done -->
+    </header>
+    <main>
+    </main>
+
+    <footer></footer>
     
 </body>
 </html>
