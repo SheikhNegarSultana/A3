@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
     <style>
         .sora {
@@ -23,12 +26,21 @@
             font-optical-sizing: auto;
             font-style: normal;
         }
+        #Poppins{
+            font-family: "Poppins", serif;
+        }
+        .hero-bg{
+            background: linear-gradient(to top, #EFEBE3, #FFFFFF);
+        }
+        .bg-popular{
+            background: linear-gradient(to right bottom, #53DB3A 40%, #FFFFFF);
+        }
     </style>
 </head>
 
 <body class="sora">
 
-    <header class=" md:pt-8 pt-4">
+    <header class=" md:pt-8 pt-4 hero-bg">
 
 
         <!-- NavBar Start -->
@@ -118,51 +130,173 @@
          
         <!-- Services Section Done -->
 
-        <!-- Arrival & Offers Section Start -->
-    <section class="mt-[3rem] md:mt-[8.75rem] md:mx-[8.75rem] mx-[1.2rem]">
-            
-                <h1 class="text-2xl font-bold text-[#179800] mb-[3rem]">
-                  Arrival & Offers
-                </h1>
 
-<div class=" md:flex gap-[1rem]">
-        
-        <div class=" mb-[1rem] md:mb-0 flex justify-between md:gap-[1.8rem] bg-[#115414] rounded-[1.5rem] ">
+<!-- Popular Section Start -->
+    <section class=" bg-[#EFEBE3] mt-[3rem] py-[3rem] md:py-[8.75rem] md:mt-[8.75rem] md:px-[8.75rem] px-[1.2rem]">
+
+        <h2 class="text-[#179800] text-[1.5rem] font-semibold mb-[1.5rem]">Popular Products</h2>
+
+       
+        <div class="flex flex-col md:flex-row gap-[1rem]">
             
-            <!-- Text Content -->
-            <div class="flex flex-col items-start pt-[1.6rem] md:pt-[3rem] pl-[1.2rem] md:pl-[2.5rem]">
-                <img src="Assets/dawat-logo.png" alt="Daawat Logo" class=" mb-[1rem] md:mb-4 h-[2.6rem] md:h-[4.75rem]">
-                <button class="bg-[#63B76D] rounded-[0.7rem] px-[1.12rem] py-[0.5rem] md:px-5 md:py-2 text-white text-[0.75rem] md:text-[1.2rem] mb-[0.87rem] md:mb-4">
-                    Cook Exotic Dishes
-                </button>
-                <p class="text-white text-[1.3rem] md:text-[1.6rem]">UP to <span class="font-bold">20% OFF</span></p>
-            </div>
            
-            <div>
-                <img src="Assets/dawat-mock-up.png" alt="Daawat Biryani" class="h-[10.75rem] md:h-[19rem] mt-[2.8rem] md:pt-[2.1rem]">
+            <div class="w-full md:w-[40%] bg-popular text-white px-[2rem] pt-[2rem] rounded-[0.6rem] flex flex-col ">
+                <h3 class="text-[1.8rem] font-semibold">30% off</h3>
+                <p class=" mt-[1rem] text-sm  text-black">Enjoy exclusive savings on your favorite essentials. Don't miss out on this limited-time deal!</p>
+
+                <button class="mt-[2rem] bg-white text-black w-1/2 px-[1.5rem] py-[0.8rem] rounded-[0.5rem] font-medium hover:bg-green-100">Buy Now</button>
+                <img src="Assets/vegetable-offer.png" alt="Vegetables" class=" ml-[18rem] -mt-[5.7rem] md:ml-[7rem] nd:-mt-[4rem] h-[18rem] w-[17rem]">
             </div>
-        </div>
+
             
+<div class="w-full md:w-[60%] grid grid-cols-2 md:grid-cols-3 gap-[1rem]">
+                
+                <!-- Product Card 1 -->
+                <div class="bg-white flex gap-[0.8rem] pl-[0.7rem] py-[1rem]  md:py-[1.5rem]  rounded-[0.8rem] border-[0.1rem] ">
+                    <div class=" bg-[#EFEBE3] rounded-lg" >
+                        <img src="Assets/onion.png" alt="Onion" class=" mt-[0.7rem] p-[0.4rem]">
+                    </div>
+                <div class=" mt-[0.9rem]"> 
+                    <div class=" flex  gap-[0.2rem] ">
+                    <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+                    <p class="text-[1rem] mt-[0.1rem] text-black">4.5</p>
+                    </div>
                     
-<div class=" flex justify-between md:gap-[1.8rem]  bg-[#102861] rounded-[1.5rem] ">
-            
-    <div class="flex flex-col items-start pt-[0.6rem] pl-[1.1rem] md:pt-[1.1rem] md:pl-[1.6rem]">
-    <img src="Assets/india-gate-logo.png" alt="India Gate Logo" class="mb-4 h-[7.8rem]">
-    <button class="bg-[#2A4D97] rounded-[0.7rem] px-[1.12rem] py-[0.5rem] md:px-5 md:py-2 text-white text-[0.75rem] md:text-[1.2rem] mb-[0.87rem] md:mb-4">
-    World's No.1 Rice
-    </button>
-    <p class="text-white text-[1.3rem] md:text-[1.6rem]">UP to <span class="font-bold">40% OFF</span></p>
+                    <h4 class="text-[0.9rem] font-bold">Onion 1 KG</h4>
+                    <p class="text-black text-[1rem]">$39.99</p>
+                    
+                </div>
+                </div>
+
+                <!-- Product Card 2 -->
+<div class="bg-white py-[1rem] flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/apple.png" alt="Apple" class="mt-[0.7rem] p-[0.4rem]">
     </div>
-            
-    <div >
-    <img src="Assets/india-gate-mock-up.png" alt="India Gate Rice" class="h-[12rem] mt-[3rem]  md:h-[17.8rem] md:mt-[2rem] pr-[1.8rem]">
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.8</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Apple 1 KG</h4>
+        <p class="text-black text-[1rem]">$25.99</p>
     </div>
 </div>
+
+<!-- Product Card 3 -->
+<div class="bg-white py-[1rem] flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/carrot.png" alt="Carrot" class="mt-[0.7rem] p-[0.4rem]">
+    </div>
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.2</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Carrot 1 KG</h4>
+        <p class="text-black text-[1rem]">$14.49</p>
+    </div>
+</div>
+
+<!-- Product Card 4 -->
+<div class="bg-white py-[1rem] flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/garlic.png" alt="Garlic" class="mt-[0.7rem] p-[0.4rem]">
+    </div>
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.7</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Garlic 500g</h4>
+        <p class="text-black text-[1rem]">$7.99</p>
+    </div>
+</div>
+
+<!-- Product Card 5 -->
+<div class="bg-white py-[1rem] flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/banana.png" alt="Banana" class="mt-[0.7rem] p-[0.4rem]">
+    </div>
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.3</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Banana 1 KG</h4>
+        <p class="text-black text-[1rem]">$12.99</p>
+    </div>
+</div>
+
+<!-- Product Card 6 -->
+<div class="bg-white py-[1rem] hidden md:flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/pea.png" alt="pea" class="mt-[0.7rem] p-[0.4rem]">
+    </div>
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.6</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Pea 1 KG</h4>
+        <p class="text-black text-[1rem]">$16.49</p>
+    </div>
+</div>
+
+<!-- Product Card 7 -->
+<div class="bg-white py-[1rem] flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/tomato.png" alt="Tomato" class="mt-[0.7rem] p-[0.4rem]">
+    </div>
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.1</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Tomato 1 KG</h4>
+        <p class="text-black text-[1rem]">$10.49</p>
+    </div>
+</div>
+
+<!-- Product Card 8 -->
+<div class="bg-white py-[1rem] flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/lettuce.png" alt="Lettuce" class="mt-[0.7rem] p-[0.4rem]">
+    </div>
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.4</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Lettuce 1 KG</h4>
+        <p class="text-black text-[1rem]">$8.99</p>
+    </div>
+</div>
+
+<!-- Product Card 9 -->
+<div class="bg-white py-[1rem] flex gap-[0.8rem] pl-[0.7rem] md:py-[1.5rem] rounded-[0.8rem] border-[0.1rem]">
+    <div class="bg-[#EFEBE3] rounded-lg">
+        <img src="Assets/potato.png" alt="Potato" class="mt-[0.7rem] p-[0.4rem]">
+    </div>
+    <div class="mt-[0.9rem]">
+        <div class="flex gap-[0.2rem]">
+            <span class="text-[#FFC107] text-[1.2rem]">⭐</span>
+            <p class="text-[1rem] mt-[0.1rem] text-black">4.0</p>
+        </div>
+        <h4 class="text-[0.9rem] font-bold">Potato 1 KG</h4>
+        <p class="text-black text-[1rem]">$6.99</p>
+    </div>
+</div>
+
+                
+
+               
+</div>
         </section>
-<!-- Arrival & Offers Section Done -->
+<!-- Popular Section Done -->
 
 <!-- Our Team Section Start -->
-<section class="mt-[3rem] md:mt-[4.75rem] md:-mb-20 md:mx-[8.75rem] mx-[1.2rem]">
+<section class="mt-[3rem] md:mt-[4.75rem] md:-mb-28 md:mx-[8.75rem] mx-[1.2rem]">
     <div class="bg-white py-32 md:py-24">
         <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 md:grid-cols-3">
           <div class="max-w-xl">
@@ -225,7 +359,7 @@
         <!-- Newsletter + Footer Section Start -->
         <div class="relative">
             <!-- Background -->
-            <div class="bg-[#179800] w-full h-[46rem] lg:h-[36rem] pb-[3rem] md:pb-[4rem] absolute bottom-0 z-0 md:h-[50%]">
+            <div class="bg-[#179800] w-full h-[46rem] lg:h-[37rem] pb-[3rem] md:pb-[4rem] absolute bottom-0 z-0 md:h-[50%]">
             </div>
     
             <!-- Newsletter Section Start -->
